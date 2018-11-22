@@ -1,0 +1,41 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: VQCopress - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ALAINP~1\LOCALS~1\Temp\RSPF5.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /D "_PCH" /FR"Debug/" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"Z:\WORK\ALAINPETIT\CODE\VQCOPRESS\DxRender.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ALAINP~1\LOCALS~1\Temp\RSPF5.tmp" 
+Creating temporary file "C:\DOCUME~1\ALAINP~1\LOCALS~1\Temp\RSPF6.tmp" with contents
+[
+ddraw.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/VQCopress.pdb" /debug /machine:I386 /out:"Debug/VQCopress.exe" /pdbtype:sept 
+.\Debug\DxRender.obj
+.\Debug\MainFrm.obj
+.\Debug\StdAfx.obj
+.\Debug\VQCopress.obj
+.\Debug\VQCopressDoc.obj
+.\Debug\VQCopressView.obj
+.\Debug\VQImage.obj
+.\Debug\VQImage8x8x16x15.obj
+.\Debug\w32Window.obj
+.\Debug\VQCopress.res
+]
+Creating command line "link.exe @C:\DOCUME~1\ALAINP~1\LOCALS~1\Temp\RSPF6.tmp"
+<h3>Output Window</h3>
+Compiling...
+DxRender.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+VQCopress.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
